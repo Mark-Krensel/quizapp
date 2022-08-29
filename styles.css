@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  color: greenyellow;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: 1px solid black;
+  margin: 5;
+  padding: 5%;
+}
+.navbutton {
+  border: 5px;
+  border-color: orange;
+  border-style: solid;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.navbutton:hover {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+
+.cardbox {
+  background-color: aqua;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  list-style: none;
+  flex-direction: column;
+  top: 60px;
+  column-gap: 10px;
+  row-gap: 10 px;
+}
+
+.card {
+  background-color: light grey;
+  color: green;
+  width: 100%;
+  border: 5px 5px 5px 5px;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 20%;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+}
+
+.show-button {
+  width: 100%;
+  padding: 1%;
+}
+
+.tagbox {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tag {
+  color: black;
+  background-color: grey;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 7%;
+}
