@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  border-bottom: 25%;
+}
 h2 {
   font-size: 22px;
 }
@@ -25,33 +27,7 @@ header {
   width: 100%;
   z-index: 10;
   top: 0;
-}
-
-.navbar {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  list-style: none;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  border: 1px solid black;
-  margin: 5;
-  padding: 5%;
-}
-.navbutton {
-  border: 5px;
-  border-color: orange;
-  border-style: solid;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
-.navbutton:hover {
-  color: red;
-}
-a:hover {
-  color: red;
+  height: 6%;
 }
 
 .cardbox {
@@ -98,4 +74,27 @@ a:hover {
   margin: 5px;
   border-radius: 7%;
   font-size: 14px;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: 1px solid black;
+  margin: 5;
+  padding: 3%;
+  background-color: purple;
+}
+
+.nav-image {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-image:hover {
+  background-color: red;
 }
