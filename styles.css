@@ -1,11 +1,13 @@
+@import url(./components/header.css);
+@import url(./components/navbar.css);
+@import url(./components/cardbox.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body {
-  border-bottom: 25%;
-}
+
 h2 {
   font-size: 22px;
 }
@@ -16,85 +18,4 @@ a:link,
 a:active {
   text-decoration: none;
   color: black;
-}
-
-header {
-  color: greenyellow;
-  display: flex;
-  justify-content: center;
-  background-color: purple;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  top: 0;
-  height: 6%;
-}
-
-.cardbox {
-  background-color: aqua;
-
-  display: flex;
-  position: relative;
-  justify-content: center;
-  list-style: none;
-  flex-direction: column;
-  top: 60px;
-  column-gap: 10px;
-  row-gap: 10 px;
-}
-
-.card {
-  background-color: light grey;
-  color: green;
-  width: 100%;
-  border: 5px 5px 5px 5px;
-  border-color: orange;
-  border-style: solid;
-  border-radius: 20%;
-  padding: 10px;
-  text-align: center;
-  margin: 15px;
-}
-
-.show-button {
-  margin: 8px;
-  padding: 1%;
-}
-
-.tagbox {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.tag {
-  color: black;
-  background-color: grey;
-  padding: 6px;
-  margin: 5px;
-  border-radius: 7%;
-  font-size: 14px;
-}
-
-.navbar {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  list-style: none;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  border: 1px solid black;
-  margin: 5;
-  padding: 3%;
-  background-color: purple;
-}
-
-.nav-image {
-  width: 50px;
-  height: 50px;
-}
-
-.nav-image:hover {
-  background-color: red;
 }
