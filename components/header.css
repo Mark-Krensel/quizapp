@@ -1,0 +1,12 @@
+header {
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    padding: 10px;
+    border: 1px solid black;
+  }

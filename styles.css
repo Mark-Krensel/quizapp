@@ -9,13 +9,28 @@
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.5rem;
 }
 
-a:hover,
+main {
+  overflow-y: auto;
+  position: absolute;
+  top: 3rem;
+  bottom: 4rem;
+  width: 100vw;
+  element-align: center;
+}
+
+:root {
+  --card-text: black;
+  --card-background-color: rgb(180, 177, 177);
+  --card-tag-text-color: rgb(245, 241, 241);
+  --card-tag-background-color: rgb(34, 33, 33);
+}
+/* a:hover,
 a:visited,
 a:link,
 a:active {
   text-decoration: none;
   color: black;
-}
+} */
