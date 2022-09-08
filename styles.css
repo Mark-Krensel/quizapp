@@ -1,6 +1,7 @@
 @import url(./components/header.css);
 @import url(./components/navbar.css);
 @import url(./components/cardbox.css);
+@import url(./components/form/form.css);
 
 * {
   box-sizing: border-box;
@@ -16,21 +17,21 @@ main {
   overflow-y: auto;
   position: absolute;
   top: 3rem;
-  bottom: 4rem;
-  width: 100vw;
-  element-align: center;
+  bottom: 3rem;
+  width: 100%;
 }
 
 :root {
   --card-text: black;
   --card-background-color: rgb(180, 177, 177);
-  --card-tag-text-color: rgb(245, 241, 241);
-  --card-tag-background-color: rgb(34, 33, 33);
+  --riddlerText: greenyellow;
+  --secondary: purple;
+  --white: white;
 }
-/* a:hover,
-a:visited,
-a:link,
-a:active {
-  text-decoration: none;
-  color: black;
-} */
+
+@media (prefers-color-scheme: dark) {
+  main {
+    background-color: #333;
+    color: white;
+  }
+}
